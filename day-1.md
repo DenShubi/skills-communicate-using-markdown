@@ -1,0 +1,33 @@
+# Daily Learning
+
+## Morning Planning
+<img alt="Cloudy Morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
+
+## Review
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
+
+## Type of List
+### Unordered List
+Use "-", example
+- Item 1
+- Item 2
+- Item 3
+
+### Ordered List
+Use "1.", example
+1. Step 1
+2. Step 2
+3. Step 3
+
+### Task List
+Use "- []" for incomplete, and "- [x]" for completed task, example
+- [ ] This task is incomplete
+- [x] This task is complete
+
+## Task
+- [ ] Check out the [github blog](https://github.blog/) for topic ideas.
+- [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
+- [ ] Convert my first blog post into an actual webpage.
